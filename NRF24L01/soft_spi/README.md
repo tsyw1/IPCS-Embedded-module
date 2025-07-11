@@ -115,12 +115,6 @@ int main(void)
 ### 2. 实现GPIO控制函数
 
 ```c
-// STM32 HAL库示例
-void user_nrf_gpio_init(void)
-{
-    // GPIO已在CubeMX中配置，这里可以添加额外的初始化
-}
-
 void user_nrf_ce_write(uint8_t level)
 {
     HAL_GPIO_WritePin(NRF_CE_GPIO_Port, NRF_CE_Pin, 
