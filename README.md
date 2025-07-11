@@ -35,7 +35,7 @@ data_comm_send()
 data_comm_parse_byte()
 
 // 变量名
-g_ctx, pkg_length, data_index
+pkg_length, data_index
 ```
 
 ### 2. 代码编写规范
