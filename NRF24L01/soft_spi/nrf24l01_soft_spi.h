@@ -175,14 +175,6 @@ uint8_t nrf24l01_write_buf(uint8_t reg, uint8_t *buf, uint8_t len);
 
 /* ========================= 用户实现接口 ========================= */
 /**
-  * @brief  GPIO初始化（用户必须实现）
-  * @param  无
-  * @retval 无
-  * @note   初始化CE、CS、SCK、MOSI、MISO、IRQ引脚
-  */
-void user_nrf_gpio_init(void);
-
-/**
   * @brief  设置CE引脚电平（用户必须实现）
   * @param  level : 0-低电平，1-高电平
   * @retval 无

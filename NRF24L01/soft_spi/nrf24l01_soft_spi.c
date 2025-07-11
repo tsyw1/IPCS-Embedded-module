@@ -337,18 +337,6 @@ uint8_t nrf24l01_receive_packet(uint8_t *data, uint8_t len)
 
 /* ========================= 用户需要实现的函数 ========================= */
 /**
-  * @brief  GPIO初始化（用户必须实现）
-  * @param  无
-  * @retval 无
-  * @note   此函数需要用户根据实际硬件实现
-  *         需要初始化CE、CS、SCK、MOSI、MISO、IRQ引脚
-  */
-void user_nrf_gpio_init(void)
-{
-    /* 此函数需要用户根据实际硬件实现 */
-}
-
-/**
   * @brief  设置CE引脚电平（用户必须实现）
   * @param  level : 0-低电平，1-高电平
   * @retval 无
